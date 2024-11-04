@@ -1,5 +1,5 @@
-#ifndef F32_CONSTS
-#define F32_CONSTS
+#ifndef F32_CONSTS_H
+#define F32_CONSTS_H
 
 //Basic mathematical constants.
 // FIXME: replace with mathematical constants from cmath.
