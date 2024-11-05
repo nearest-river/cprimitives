@@ -23,7 +23,9 @@ typedef i32 isize;
 typedef u32 usize;
 #endif
 
-typedef char utf8char[4];
+typedef struct {
+  char chars[4];
+} utf8char;
 
 typedef _Float16 f16;
 typedef float f32;
